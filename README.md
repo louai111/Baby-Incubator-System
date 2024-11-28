@@ -2,6 +2,8 @@
 
 This project integrates Arduino and Python to create a comprehensive health monitoring system that tracks multiple vital parameters—such as heart rate, SpO₂ levels, temperature, and humidity—alongside jaundice detection using an RGB color sensor. Additionally, the system serves as a **basic incubator controller** by monitoring and regulating temperature and humidity, which are essential for neonatal care. Data collected by Arduino from the sensors is transmitted to a computer, where a Python PyQt-based interface visualizes ECG signals in real-time.
 
+Our incubator system draws inspiration from the paper "Designing a Low-Cost Multifunctional Infant Incubator" by Kevin Tran, Aaron Gibson, Don Wong, Dagmawi Tilahun, Nicholas Selock, Theresa Good, Geetha Ram, Leah Tolosa, Michael Tolosa, Yordan Kostov, and others. This study outlines innovative approaches to neonatal care, focusing on cost-effective, modular designs, and infection control measures. By integrating the scientifically proven methods described in the paper, we have ensured that our incubator aligns with evidence-based best practices, making it practical and impactful in addressing critical challenges in low-resource settings.
+
 ![My Image](Incubator_Design.png)
 
 This figure demonstrates the modularity and cost-efficiency of the design. It illustrates how the disposable infant chamber is made from insulated cardboard and flat-packed for easy assembly. This chamber integrates seamlessly with a reusable control module that includes temperature regulation and power systems. Additionally, an optional cooling module, designed to accommodate diverse environmental needs, can be attached to enhance functionality.
@@ -27,6 +29,10 @@ This health monitoring and ECG visualization system is designed with neonatal ap
 
 - **Arduino**: Reads data from a variety of sensors (heart rate, SpO₂, temperature, humidity, and RGB) and transmits it to a connected computer.
 - **Python PyQt GUI**: Uses PyQtGraph for real-time ECG visualization, displaying dynamic, animated waveforms based on collected heart rate data.
+
+![My Image](Incubator_2.png)
+
+![My Image](Incubator_2.png)
 
 ## Key Features
 
