@@ -43,8 +43,8 @@ This sequence showcases the step-by-step assembly of the flat-packable infant ch
 <br>
 
 <div align="center">
-  <img src="Incubator_2.jpg" alt="incubator design" width="200" height="500">
-  <img src="Incubator_1.jpg" alt="incubator design" width="200" height="500">
+  <img src="Incubator_2.jpg" alt="incubator design" width="350" height="500">
+  <img src="Incubator_1.jpg" alt="incubator design" width="350" height="500">
 </div>
 
 <br>
