@@ -19,7 +19,7 @@ Our incubator system draws inspiration from the paper "Designing a Low-Cost Mult
 This figure demonstrates the modularity and cost-efficiency of the design. It illustrates how the disposable infant chamber is made from insulated cardboard and flat-packed for easy assembly. This chamber integrates seamlessly with a reusable control module that includes temperature regulation and power systems. Additionally, an optional cooling module, designed to accommodate diverse environmental needs, can be attached to enhance functionality.
 
 <div align="center">
-  <img src="Incubator_Design_2.png" alt="incubator design" width="500" height="300">
+  <img src="Incubator_Design_2.png" alt="incubator design" width="300" height="500">
 </div>
 
 The thermal analysis in this figure highlights the importance of precise heat insulation. A controlled environmental chamber replicates varying climates to test temperature stability. The incubator’s lid, made of triple-paned clear polyvinylchloride (PVC) film, offers superior insulation while maintaining visibility, reducing energy loss, and ensuring a stable internal environment for neonatal care.
@@ -31,11 +31,11 @@ The thermal analysis in this figure highlights the importance of precise heat in
 This sequence showcases the step-by-step assembly of the flat-packable infant chamber. The lightweight and disposable design emphasizes portability and cost-effectiveness, catering to low-resource settings. The final prototype combines ease of use with innovative thermal management solutions, such as the optional cooling unit and a thermal bank, tailored for extended off-grid operation.
 
 <div align="center">
-  <img src="Incubator_2.jpg" alt="incubator design" width="800" height="300">
+  <img src="Incubator_2.jpg" alt="incubator design" width="300" height="800">
 </div>
 
 <div align="center">
-  <img src="Incubator_1.jpg" alt="incubator design" width="800" height="300">
+  <img src="Incubator_1.jpg" alt="incubator design" width="300" height="800">
 </div>
 
 ## Key Features
