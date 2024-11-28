@@ -63,23 +63,23 @@ This project offers a scalable approach to health monitoring, combining sensor-b
 
 ## Contributors
 
-<div align="center">
-  <div style="display: inline-block; margin: 10px;">
+<div align="center" style="display: flex; justify-content: center; gap: 20px;">
+  <div style="text-align: center;">
     <img src="https://media.licdn.com/dms/image/v2/C5603AQHhefqmK0YyTQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1630703428318?e=1738195200&v=beta&t=rvIZ-foBRPUpf6fCQNWssuVWuPA0WMuq4xoXcXH73_k" alt="Image 1" width="100">
     <p>Ibrahim Fateen</p>
     <a href="https://www.linkedin.com/in/ibrahim-fateen-a93b411ab/">LinkedIn</a>
   </div>
-  <div style="display: inline-block; margin: 10px;">
+  <div style="text-align: center;">
     <img src="https://media.licdn.com/dms/image/v2/C4E03AQHatKR03BZarg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1647711981670?e=1738195200&v=beta&t=9Vn_XV15VVlLaZSwEuoWMjL6SNzQd2wn8W2z8k44WXA" alt="Image 2" width="100">
     <p>Youssef Abo-El-Ela</p>
     <a href="https://www.linkedin.com/in/youssef-abo-el-ela-a4a12b235/">LinkedIn</a>
   </div>
-  <div style="display: inline-block; margin: 10px;">
+  <div style="text-align: center;">
     <img src="https://media.licdn.com/dms/image/v2/D4E03AQG6W9o6HSAzaQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1684759057692?e=1738195200&v=beta&t=D26pupk6OyQF4DpOg-vujiFxLhJhUEuczxVvAFbj8E4" alt="Image 3" width="100">
     <p>Ali Younis</p>
     <a href="https://www.linkedin.com/in/ali-younis-98b780277/">LinkedIn</a>
   </div>
-  <div style="display: inline-block; margin: 10px;">
+  <div style="text-align: center;">
     <img src="https://media.licdn.com/dms/image/v2/D4E03AQE4y_uk25cViw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1716320075369?e=1738195200&v=beta&t=wyDP0-8tHiRCR6EMYNMkkEc7OAgzfzzRvC1mDAp6bT4" alt="Image 4" width="100">
     <p>Omar Khaled</p>
     <a href="https://www.linkedin.com/in/omar-khaled-064b7930a/">LinkedIn</a>
