@@ -55,14 +55,20 @@ This sequence showcases the step-by-step assembly of the flat-packable infant ch
 <div align="center">
   <img src="ECG_Signal.png" alt="ECG Signal">
 </div>
-ECG Signal
+<div align="center">
+  ECG Signal
+</div>
 
 <br>
 
 <div align="center">
   <img src="BPM_Plot.png" alt="incubator design">
 </div>
-BPM Plot
+<div align="center">
+  BPM Plot
+</div>
+
+<br>
 
 ## Mobile Interface
 
