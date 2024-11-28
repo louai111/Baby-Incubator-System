@@ -16,8 +16,6 @@ Our incubator system draws inspiration from the paper "Designing a Low-Cost Mult
   <img src="Incubator_Design.png" alt="incubator design">
 </div>
 
-<br>
-
 This figure demonstrates the modularity and cost-efficiency of the design. It illustrates how the disposable infant chamber is made from insulated cardboard and flat-packed for easy assembly. This chamber integrates seamlessly with a reusable control module that includes temperature regulation and power systems. Additionally, an optional cooling module, designed to accommodate diverse environmental needs, can be attached to enhance functionality.
 
 <br>
@@ -26,8 +24,6 @@ This figure demonstrates the modularity and cost-efficiency of the design. It il
   <img src="Incubator_Design_2.png" alt="incubator design">
 </div>
 
-<br>
-
 The thermal analysis in this figure highlights the importance of precise heat insulation. A controlled environmental chamber replicates varying climates to test temperature stability. The incubator’s lid, made of triple-paned clear polyvinylchloride (PVC) film, offers superior insulation while maintaining visibility, reducing energy loss, and ensuring a stable internal environment for neonatal care.
 
 <br>
@@ -35,8 +31,6 @@ The thermal analysis in this figure highlights the importance of precise heat in
 <div align="center">
   <img src="Incubator_Design_3.png" alt="incubator design">
 </div>
-
-<br>
 
 This sequence showcases the step-by-step assembly of the flat-packable infant chamber. The lightweight and disposable design emphasizes portability and cost-effectiveness, catering to low-resource settings. The final prototype combines ease of use with innovative thermal management solutions, such as the optional cooling unit and a thermal bank, tailored for extended off-grid operation.
 
