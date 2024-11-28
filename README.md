@@ -31,11 +31,8 @@ The thermal analysis in this figure highlights the importance of precise heat in
 This sequence showcases the step-by-step assembly of the flat-packable infant chamber. The lightweight and disposable design emphasizes portability and cost-effectiveness, catering to low-resource settings. The final prototype combines ease of use with innovative thermal management solutions, such as the optional cooling unit and a thermal bank, tailored for extended off-grid operation.
 
 <div align="center">
-  <img src="Incubator_2.jpg" alt="incubator design">
-</div>
-
-<div align="center">
-  <img src="Incubator_1.jpg" alt="incubator design">
+  <img src="Incubator_2.jpg" alt="incubator design" width="500" height="1000">
+  <img src="Incubator_1.jpg" alt="incubator design" width="500" height="1000">
 </div>
 
 ## Key Features
