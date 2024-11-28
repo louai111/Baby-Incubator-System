@@ -1,5 +1,13 @@
 # Low Cost Disposable Baby Incubator With Health Monitoring and ECG Visualization Capabilities
 
+## Contents
+
+- [Overview](#overview)
+- [Key Features](#key-features)
+- [Mobile Interface](#mobile-interface)
+
+## Overview
+
 This project integrates Arduino and Python to create a comprehensive health monitoring system that tracks multiple vital parameters—such as heart rate, SpO₂ levels, temperature, and humidity—alongside jaundice detection using an RGB color sensor. Additionally, the system serves as a **basic incubator controller** by monitoring and regulating temperature and humidity, which are essential for neonatal care. Data collected by Arduino from the sensors is transmitted to a computer, where a Python PyQt-based interface visualizes ECG signals in real-time.
 
 Our incubator system draws inspiration from the paper "Designing a Low-Cost Multifunctional Infant Incubator" by Kevin Tran, Aaron Gibson, Don Wong, Dagmawi Tilahun, Nicholas Selock, Theresa Good, Geetha Ram, Leah Tolosa, Michael Tolosa, Yordan Kostov, and others. This study outlines innovative approaches to neonatal care, focusing on cost-effective, modular designs, and infection control measures. By integrating the scientifically proven methods described in the paper, we have ensured that our incubator aligns with evidence-based best practices, making it practical and impactful in addressing critical challenges in low-resource settings.
@@ -16,23 +24,9 @@ The thermal analysis in this figure highlights the importance of precise heat in
 
 This sequence showcases the step-by-step assembly of the flat-packable infant chamber. The lightweight and disposable design emphasizes portability and cost-effectiveness, catering to low-resource settings. The final prototype combines ease of use with innovative thermal management solutions, such as the optional cooling unit and a thermal bank, tailored for extended off-grid operation.
 
-## Contents
+![My Image](Incubator_2.jpg)
 
-- [Overview](#overview)
-- [Key Features](#key-features)
-- [Mobile Interface](#mobile-interface)
-- [Additional Information](#additional-information)
-
-## Overview
-
-This health monitoring and ECG visualization system is designed with neonatal applications in mind, especially for incubator settings. It comprises two main components:
-
-- **Arduino**: Reads data from a variety of sensors (heart rate, SpO₂, temperature, humidity, and RGB) and transmits it to a connected computer.
-- **Python PyQt GUI**: Uses PyQtGraph for real-time ECG visualization, displaying dynamic, animated waveforms based on collected heart rate data.
-
-![My Image](Incubator_2.png)
-
-![My Image](Incubator_2.png)
+![My Image](Incubator_1.jpg)
 
 ## Key Features
 
