@@ -52,6 +52,18 @@ This sequence showcases the step-by-step assembly of the flat-packable infant ch
 - **Incubator Temperature Control**: Basic functionality to regulate temperature via relay and fan control, enabling essential thermal management.
 - **ECG Visualization**: Displays animated ECG data, derived from BPM input, to provide a clear, live representation of cardiac activity.
 
+<div align="center">
+  <img src="ECG_Signal.png" alt="ECG Signal">
+</div>
+ECG Signal
+
+<br>
+
+<div align="center">
+  <img src="BPM_Plot.png" alt="incubator design">
+</div>
+BPM Plot
+
 ## Mobile Interface
 
 A mobile app interface was also developed for remote monitoring capabilities of the Temperature, Humidity, SpO2, and Baby Skin Color for Jaundice Detection, and BPM.  
