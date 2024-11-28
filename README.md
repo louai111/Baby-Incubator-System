@@ -54,8 +54,11 @@ This sequence showcases the step-by-step assembly of the flat-packable infant ch
 
 ## Mobile Interface
 
-A mobile app interface was also developed for remote monitoring capabilities.  
-[Mobile Application Demo Link to be Updated Soon](youtube.com)
+A mobile app interface was also developed for remote monitoring capabilities of the Temperature, Humidity, SpO2, and Baby Skin Color for Jaundice Detection, and BPM.  
+
+<div align="center">
+  <img src="Phone_App.jpg" alt="phone app screenshot" width="350">
+</div>
 
 ---
 
