@@ -1,8 +1,4 @@
-Here's a revised README for a more original look:
-
----
-
-# Health Monitoring and ECG Visualization System
+# Low Cost Baby Incubator With Health Monitoring and ECG Visualization Capabilities
 
 This project integrates Arduino and Python to create a comprehensive health monitoring system that tracks multiple vital parameters—such as heart rate, SpO₂ levels, temperature, and humidity—alongside jaundice detection using an RGB color sensor. Additionally, the system serves as a **basic incubator controller** by monitoring and regulating temperature and humidity, which are essential for neonatal care. Data collected by Arduino from the sensors is transmitted to a computer, where a Python PyQt-based interface visualizes ECG signals in real-time.
 
