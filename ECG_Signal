@@ -1,0 +1,76 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# PQRST generation function
+def generate_full_pqrst_wave(bpm, sampling_rate=100):
+    beat_duration = 60 / bpm
+    t = np.linspace(0, beat_duration, int(sampling_rate * beat_duration), endpoint=False)
+
+    p_wave = 0.1 * np.exp(-((t - 0.1 * beat_duration) ** 2) / (0.01 * beat_duration ** 2))
+    q_wave = -0.15 * np.exp(-((t - 0.2 * beat_duration) ** 2) / (0.005 * beat_duration ** 2))
+    r_wave = 1.0 * np.exp(-((t - 0.25 * beat_duration) ** 2) / (0.005 * beat_duration ** 2))
+    s_wave = -0.25 * np.exp(-((t - 0.3 * beat_duration) ** 2) / (0.005 * beat_duration ** 2))
+    t_wave = 0.35 * np.exp(-((t - 0.45 * beat_duration) ** 2) / (0.02 * beat_duration ** 2))
+
+    ecg_wave = p_wave + q_wave + r_wave + s_wave + t_wave
+    return ecg_wave, beat_duration
+
+df = pd.read_csv('heart_rate_data.csv')
+bpm_values = df['bpm'].values
+
+sampling_rate = 100
+segment_duration = 0.1
+ecg_signal = np.array([])
+time = np.array([])
+
+current_time = 0  # Initialize time
+last_valid_bpm = None  # Track the last valid BPM
+position_in_wavelet = 0  # Track the position in the current PQRST wave
+
+# Generate ECG-like signal
+for bpm in bpm_values:
+    if bpm <= 0:
+        if last_valid_bpm is not None:
+            bpm = last_valid_bpm
+        else:
+            continue
+
+    last_valid_bpm = bpm
+
+    pqrst_wave, beat_duration = generate_full_pqrst_wave(bpm, sampling_rate)
+
+    total_samples = len(pqrst_wave)
+    segment_samples = int(sampling_rate * segment_duration)
+
+    remaining_samples = total_samples - position_in_wavelet
+
+
+    if remaining_samples >= segment_samples:
+        segment = pqrst_wave[position_in_wavelet:position_in_wavelet + segment_samples]
+        position_in_wavelet += segment_samples
+    else:
+        segment = pqrst_wave[position_in_wavelet:]
+        position_in_wavelet = 0  # Reset position for the next wavelet
+        # If the segment is shorter than desired, pad it to ensure we have a full segment
+        if len(segment) < segment_samples:
+            next_segment = pqrst_wave[:segment_samples - len(segment)]
+            segment = np.concatenate((segment, next_segment))
+
+    ecg_signal = np.concatenate((ecg_signal, segment))
+
+    # Generate the corresponding time values
+    t = np.linspace(current_time, current_time + segment_duration, len(segment), endpoint=False)
+    time = np.concatenate((time, t))
+
+    # Update current time for the next wavelet
+    current_time += segment_duration
+
+# Plot the simulated ECG
+plt.figure(figsize=(15, 5))
+plt.plot(time, ecg_signal)
+plt.title('Simulated ECG-like Signal')
+plt.xlabel('Time (s)')
+plt.ylabel('Amplitude')
+plt.xlim(0, current_time)  # Limit the x-axis based on total time
+plt.show()
